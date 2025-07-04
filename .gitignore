@@ -1,0 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+.env.*
+
+# VS Code / PyCharm / outras IDEs
+.vscode/
+.idea/
+*.swp
+
+# Poetry virtualenvs fora do projeto
+.python-version
+poetry.lock
+
+# Arquivos de teste
+test_db.db
+.coverage
+coverage.xml
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+
+# MyPy / Pylint
+.mypy_cache/
+.dmypy.json
+.pylint.d/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
